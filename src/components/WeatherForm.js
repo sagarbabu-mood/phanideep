@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FaSearch } from "react-icons/fa";
+// import { FaSearch } from "react-icons/fa";
 
 class WeatherForm extends Component {
   constructor() {
@@ -49,7 +49,8 @@ class WeatherForm extends Component {
           required
         />
         <button type="submit">
-          <FaSearch />
+          {/* <FaSearch /> */}
+          Search
         </button>
       </form>
     );
